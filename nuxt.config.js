@@ -62,7 +62,8 @@ export default {
           ...res.people.map(item => `/people/${item.slug.current}`)
         ]
       })
-    }
+    },
+    fallback: true
   },
 
   /*
